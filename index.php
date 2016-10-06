@@ -24,15 +24,23 @@
                         <a href="#home" data-toggle="tab">Home</a>
                     </li>
                     <li>
-                        <a data-toggle="tab" href="#">Recursive Data Structures</a>
+                        <a data-toggle="tab" href="#">Basic data structures</a>
                         <ul class="sub">
                             <li>
-                                <a href="#mergeSort" data-toggle="tab">
-                                    <i class="fa fa-chevron-circle-right"></i>Merge Sort</a>
+                                <a href="#arrays" data-toggle="tab">
+                                    <i class="fa fa-chevron-circle-right"></i>Arrays</a>
                             </li>
                             <li>
-                                <a href="#quickSort" data-toggle="tab">
-                                    <i class="fa fa-chevron-circle-right"></i>Quick Sort</a>
+                                <a href="#queues" data-toggle="tab">
+                                    <i class="fa fa-chevron-circle-right"></i>Queues</a>
+                            </li>
+                            <li>
+                                <a href="#stacks" data-toggle="tab">
+                                    <i class="fa fa-chevron-circle-right"></i>Stacks</a>
+                            </li>
+                            <li>
+                                <a href="#lists" data-toggle="tab">
+                                    <i class="fa fa-chevron-circle-right"></i>Lists</a>
                             </li>
                         </ul>
                     </li>
@@ -132,7 +140,7 @@
             <section class="wrapper">
                 <!--content here-->
                 <div class="tab-content">
-                    <?php include 'pages/tabpanes.php';?>
+                    <?php include 'pages/tabpanes.php'; ?>
                 </div>
             </section>
         </section>

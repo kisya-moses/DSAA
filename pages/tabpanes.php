@@ -5,8 +5,21 @@
  * and open the template in the editor.
  */
 ?>
-<!--SROTING-->
 <!--HOME PAGE-->
+<!--BASIC DS-->
+<div class="tab-pane" id="lists" data-toggle="tab">
+    <h1 class="page-header">lists</h1>
+</div>
+<div class="tab-pane" id="stacks" data-toggle="tab">
+    <h1 class="page-header">stacks</h1>
+</div>
+<div class="tab-pane" id="queues" data-toggle="tab">
+    <h1 class="page-header">Queues</h1>
+</div>
+<div class="tab-pane" id="arrays" data-toggle="tab">
+    <h1 class="page-header">Arrays</h1>
+</div>
+<!--//BASIC DS-->
 <div class="tab-pane" id="home" data-toggle="tab">
     <h1 class="page-header">CSC 2100: DATA STRUCTURES AND ALGORITHMS</h1>
     <div>
